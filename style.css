@@ -1,0 +1,128 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 3rem;
+}
+
+header > a {
+    margin-right: 1rem;
+}
+
+header > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0rem 0.5rem;
+    border-radius: 100%;
+}
+
+header > div:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 20rem;
+}
+
+#search-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    margin: 2rem 0rem;
+    width: 30rem;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 1rem;
+}
+
+#search-line input {
+    flex-grow: 1;
+    border: none;
+}
+
+#search-line input:focus {
+    border: none;
+    outline: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6rem;
+    background-color: rgb(236, 236, 236);
+}
+
+footer > div {
+    height: 3rem;
+}
+
+#footer-1 {
+    justify-content: flex-start;
+    font-size: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+a {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ico {
+    height: 2rem;
+}
+
+main button {
+    height: 2rem;
+    width: 8rem;
+    margin: 0rem 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.inline-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .inline-text {
+    font-size: 1rem;
+}
+
+main .inline-text a {
+    color: darkblue;
+    font-size: 1rem;
+}
